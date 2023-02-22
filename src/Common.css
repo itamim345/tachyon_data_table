@@ -33,3 +33,39 @@ button:hover{
     background-color: rgb(7, 7, 128);
 }
 
+/****************** Net Position CSS ****************/
+#net_position{
+    padding: 2rem 0;
+}
+#net_position h2 {
+    margin: 0;
+}
+
+/****************** Table CSS ****************/
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+table tbody {
+    background-color: rgb(33, 31, 31);
+}
+table th{
+    padding: .5rem 0;
+}
+table tbody tr {
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+table td {
+    padding: .4rem 0;
+}
+#exp-btn {
+    background-color: rgb(33, 31, 31);
+    border: 1px solid #fff;
+    color: #fff;
+    padding: .3rem .4rem;
+    border-radius: .3rem;
+}
+
