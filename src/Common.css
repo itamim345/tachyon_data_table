@@ -53,6 +53,9 @@ table tbody {
 table th{
     padding: .5rem 0;
 }
+table tbody tr:nth-child(1) {
+    border-top: 1px solid gray;
+}
 table tbody tr {
     border-bottom: 1px solid gray;
     border-left: 1px solid gray;
@@ -69,3 +72,50 @@ table td {
     border-radius: .3rem;
 }
 
+/****************** OrderBook CSS ****************/
+#order_book {
+    padding: 2rem 0;
+}
+#order_book h2 {
+    margin: 0;
+}
+.order-book-intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.order-book-intro .intro-left{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.toogle-btn{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+#exit-btn {
+    background-color: red;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: .3rem .4rem;
+    border-radius: .3rem;
+}
+#order_book table tbody tr:nth-child(1) {
+    background-color: rgb(211, 79, 8);
+}
+#order_book table tbody tr:nth-child(2) {
+    background-color: rgb(60, 57, 57);
+}
+#order_book table tbody tr:nth-child(3) {
+    background-color: green;
+}
+#order_book table tbody tr:nth-child(4) {
+    background-color: green;
+}
+#order_book table tbody tr:nth-child(5) {
+    background-color: red;
+}
+#order_book table tbody tr:nth-child(6) {
+    background-color: red;
+}
