@@ -123,3 +123,11 @@ table td {
 #order_book table tbody tr:nth-child(6) {
     background-color: red;
 }
+
+/****************** OrderBook CSS ****************/
+#intraday_graph h2{
+    margin: 0;
+}
+#intraday_graph hr {
+    margin-bottom: 2rem;
+}

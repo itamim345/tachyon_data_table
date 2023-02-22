@@ -14,6 +14,7 @@ export default function IntradayGraph() {
   return (
     <div id="intraday_graph">
       <h2>Intraday PNL Max:3,71,417 | Min:-7416</h2>
+      <hr />
       <LineChart width={600} height={300} data={data}>
         <Line type="monotone" dataKey="uv" stroke="#8884d8" />
         <CartesianGrid stroke="#ccc" />
