@@ -3,6 +3,7 @@ import './App.css';
 import HeaderInfo from './components/HeaderInfo';
 import NetPosition from './components/NetPosition';
 import OrderBook from './components/OrderBook';
+import IntradayGraph from './components/IntradayGraph';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeaderInfo/>
       <NetPosition/>
       <OrderBook/>
+      <IntradayGraph/>
     </div>
   );
 }

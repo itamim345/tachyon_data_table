@@ -1,3 +1,7 @@
+/* Common */
+button {
+    cursor: pointer;
+}
 /****************** Header Info CSS ****************/
 #header_info {
     padding-top: 2rem;
